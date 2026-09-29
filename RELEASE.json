@@ -1,0 +1,25 @@
+{
+  "dataset": "Simulated Mass-Action Reaction Network Experiments",
+  "version": "1.0.0",
+  "created_utc": "2026-09-26",
+  "records": 3150,
+  "record_unit": "one generated reaction network with all of its simulated experiments",
+  "licence": "CC0-1.0 (data and code)",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1"
+  },
+  "generation": "make_mixed.py <seed> 450 per seed, 7 seeds, assembled by make_raw.py; raw_id is random entropy",
+  "seeds": "withheld (retained by the creator for audits)",
+  "reproducibility_check_utc": "2026-09-29: regenerating all 3,150 networks with the frozen seeds reproduced n_species, hidden, experiments and reactions of every line exactly",
+  "sha256": {
+    "systems.jsonl": "3d8e08667be8de2791afb6b1f39b01c390bb0200b59eb9c8ec036d63f2df35b8",
+    "gen.py": "452bf0dceedd09f72a64854183a5c1d3505392cc1cdf9105f1a5f7c663dde548",
+    "make_mixed.py": "b7336d844e012dc673c5e3cab623da636c805dd39c7647fa14cad957d7402192",
+    "make_raw.py": "e79d7d79bda7c6396859533cd93023b479201a7d36530401d2972d81794b07ad",
+    "requirements.txt": "0232d7ff7704af5f520c3c43d6727fa5562fa24a8c9f2cbd868278fd0bad9bc2",
+    "LICENSE.txt": "8bf49d2546404ed3c551073f8c8d6a96b43521dd83cde17ea6e83b989f656ebc",
+    "RAW_UPLOAD.md": "7a9c7056c424bfc1457963f744f62ef3c48a4363a8466d63d20591d89bfe9ddf"
+  }
+}
